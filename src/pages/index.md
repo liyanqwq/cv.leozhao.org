@@ -45,6 +45,16 @@ SGOJ is an online judging system for algorithm contests, based on HydroOJ. It ha
 * Redesigned UI.
 * Held some regional contests.
 
+## Awards
+
+### [National Olympiad in Informatics in Provinces (NOIP)](https://www.noi.cn)
+
+#### Second Prize | 2021
+
+### [The 2020 ICPC China Shanghai HMSPC](https://xxjd.shnu.edu.cn/7a/60/c27065a752224/page.htm)
+
+#### Silver Medal | 2020
+
 ## Languages
 
 | English        | Cantonese      | Chinese        |
