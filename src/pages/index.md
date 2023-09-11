@@ -4,7 +4,6 @@ description: Resume about Leo ZHAO
 layout: ../layouts/Minimalist.astro
 pdfLink: resume.pdf
 ---
-
 # Leo ZHAO
 
 **Programmer**
@@ -12,7 +11,6 @@ pdfLink: resume.pdf
 Kowloon, Hong Kong | liyanqwq@gmail.com | [@liyanqwq](//github.com/liyanqwq)
 
 Leo ZHAO (ZHAO Bingcheng) is a full-stack web developer with extensive experience and skills in PHP/Laravel, NodeJS, Python, and other languages. He is currently pursuing a bachelor’s degree in artificial intelligence and information engineering at the Hong Kong Polytechnic University, and he is passionate about open source software development.
-
 
 ## Work Experience
 
@@ -26,7 +24,7 @@ DuianTech is a startup company based in Beijing, China, dedicated to exploring t
 
 #### Web Developer | Oct 2021 - Dec 2022
 
-Munshare is the largest Model United Nations (MUN) information platform in China, providing information services and conference systems. 
+Munshare is the largest Model United Nations (MUN) information platform in China, providing information services and conference systems.
 
 * Developed the operations and maintenance solution for the platform.
 * Participated in community operations.
@@ -35,7 +33,7 @@ Munshare is the largest Model United Nations (MUN) information platform in China
 
 ## Projects
 
-### [SGOJ](<//github.com/SGOJ>)
+### [SGOJ](#)
 
 #### Developer / Admin | May 2021
 
@@ -59,14 +57,20 @@ SGOJ is an online judging system for algorithm contests, based on HydroOJ. It ha
 
 #### Best Proposal | 2022
 
+## Skills
+
+| PHP (Laravel) | CSS/JS      | C++    | Python |
+| ------------- | ----------- | ------ | ------ |
+| Senior        | Semi-senior | Senior | Junior |
+
 ## Languages
 
-| English        | Cantonese      | Chinese        |
-| -------------- | -------------- | -------------- |
-| Fluent         | Basic          | Native speaker |
+| English | Cantonese | Chinese        |
+| ------- | --------- | -------------- |
+| Fluent  | Basic     | Native speaker |
 
 ## Education
 
 ### The Hong Kong Polytechnic University
 
-#### BSc in Artificial Intelligence and Information Engineering | Sep 2023 - 
+#### BSc in Artificial Intelligence and Information Engineering | Sep 2023 - Jul 2027 (exp.)
