@@ -55,6 +55,10 @@ SGOJ is an online judging system for algorithm contests, based on HydroOJ. It ha
 
 #### Silver Medal | 2020
 
+### [The 2022 Model CPPCC Proposal Collection](http://www.cppcc.gov.cn/zxww/2022/07/22/ARTI1658458430310137.shtml)
+
+#### Best Proposal | 2022
+
 ## Languages
 
 | English        | Cantonese      | Chinese        |
