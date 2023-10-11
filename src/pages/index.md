@@ -57,6 +57,10 @@ SGOJ is an online judging system for algorithm contests, based on HydroOJ. It ha
 
 #### Best Proposal | 2022
 
+### [PolyU CTF Qualifier](https://www.polyuctf.com)
+
+#### First Runner-Up | 2023
+
 ## Skills
 
 | PHP (Laravel) | CSS/JS      | C++    | Python |
