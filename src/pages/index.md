@@ -16,7 +16,7 @@ Leo ZHAO (ZHAO Bingcheng) is a full-stack web developer with extensive experienc
 
 ### [DuianTech](#)
 
-#### Co-Founder, Senior Web Developer | Mar 2021 - Sept 2022
+#### Co-Founder, Senior Web Developer | Mar 2021 - Sep 2022
 
 DuianTech is a startup company based in Beijing, China, dedicated to exploring the future development of internet communities. It is currently developing some open source projects and providing technical and cloud service support for some small businesses.
 
