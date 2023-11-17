@@ -61,6 +61,10 @@ SGOJ is an online judging system for algorithm contests, based on HydroOJ. It ha
 
 #### First Runner-Up | 2023
 
+### [HKCERT CTF 2023](https://ctf.hkcert.org/ctf-challenge-info/index.html)
+
+#### Second Runner-Up - Tertiary Category | 2023
+
 ## Skills
 
 | PHP (Laravel) | CSS/JS      | C++    | Python |
