@@ -82,3 +82,7 @@ SGOJ is an online judging system for algorithm contests, based on HydroOJ. It ha
 ### The Hong Kong Polytechnic University
 
 #### BSc in Artificial Intelligence and Information Engineering | Sep 2023 - Jul 2027 (exp.)
+
+### Weihai Experimental High School
+
+#### High School Diploma | Sep 2020 - Jun 2023
