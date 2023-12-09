@@ -10,7 +10,7 @@ pdfLink: resume.pdf
 
 Kowloon, Hong Kong | liyanqwq@gmail.com | [@liyanqwq](//github.com/liyanqwq)
 
-Leo ZHAO (ZHAO Bingcheng) is a full-stack web developer with extensive experience and skills in PHP/Laravel, NodeJS, Python, and other languages. He is currently pursuing a bachelor’s degree in artificial intelligence and information engineering at the Hong Kong Polytechnic University, and he is passionate about open source software development.
+Leo (BC) ZHAO is a full-stack web developer with extensive experience and skills in PHP/Laravel, NodeJS, Python, and other languages. He is currently pursuing a bachelor’s degree in artificial intelligence and information engineering at the Hong Kong Polytechnic University, and he is passionate about open source software development.
 
 ## Work Experience
 
