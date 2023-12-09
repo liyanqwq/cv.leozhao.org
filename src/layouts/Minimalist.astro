@@ -14,10 +14,6 @@ type Props = {
 
 const { title, pdfLink, noIndex, description } = Astro.props.frontmatter;
 
-const initials = title
-  .split(' ')
-  .map((word) => word[0].toUpperCase())
-  .slice(0, 2);
 ---
 
 <!DOCTYPE html>
