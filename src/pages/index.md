@@ -14,6 +14,10 @@ Leo (BC) ZHAO is a full-stack web developer with extensive experience and skills
 
 ## Work Experience
 
+### [The Hong Kong Polytechnic University](//polyu.edu.hk)
+
+#### Student Research Assistant | Jan 2024 - Current
+
 ### [DuianTech](#)
 
 #### Co-Founder, Senior Web Developer | Mar 2021 - Sep 2022
