@@ -69,11 +69,35 @@ SGOJ is an online judging system for algorithm contests, based on HydroOJ. It ha
 
 #### Second Runner-Up - Tertiary Category | 2023
 
+### [HKUST Firebird CTF 2024](https://cse.hkust.edu.hk/event/FirebirdCTF2024/)
+
+#### Champion | 2024
+
 ## Skills
 
-| PHP (Laravel) | CSS/JS      | C++    | Python |
-| ------------- | ----------- | ------ | ------ |
-| Senior        | Semi-senior | Senior | Junior |
+### Advanced
+
+![Skills](https://skillicons.dev/icons?i=html,css,js,jquery,php,laravel)
+
+### Proficient
+
+![Skills](https://skillicons.dev/icons?i=python,cpp,astro,git)
+
+### Intermediate
+
+![Skills](https://skillicons.dev/icons?i=nodejs,ts)
+
+### Beginner
+
+![Skills](https://skillicons.dev/icons?i=vue,react,r)
+
+### Stack
+
+![Stack](https://skillicons.dev/icons?i=github,cloudflare,vercel,aws,azure,docker,nginx,mysql,mongodb,linux)
+
+
+<img src="/img/skills.png" class="rounded-xl mx-auto block" />
+
 
 ## Languages
 
