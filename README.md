@@ -28,8 +28,7 @@ This is an interactive resume built with Astro framework, React components, and 
 │   └── pages/
 │       └── index.astro
 ├── astro.config.mjs
-├── package.json
-└── tailwind.config.mjs
+└── package.json
 ```
 
 ## Getting Started
