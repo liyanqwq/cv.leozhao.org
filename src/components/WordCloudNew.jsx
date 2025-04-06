@@ -49,7 +49,7 @@ const WordCloud = ({ skills }) => {
   
   return (
     <div className="w-full bg-gray-50 rounded-lg px-4 py-8 overflow-visible">
-      <div className="flex flex-wrap gap-1 justify-center">
+      <div className="flex flex-wrap gap-1 justify-center lg:justify-start">
         {sortedSkills.map((skill, index) => {
           // 获取强度级别
           const intensityLevel = getIntensityLevel(skill.value);
