@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+* {
+    word-break: break-all;
+}
+
+button {
+	user-select: none!important;
+}
+
+.rounded, .rounded-full {
+    user-select: none!important;
+}

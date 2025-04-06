@@ -1,27 +1,24 @@
 {
-  "name": "cv-leozhao-org",
+  "name": "",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
-    "generate-pdf": "ts-node --project tsconfig-pdf.json ./scripts/generate-pdf.ts",
-    "generate-pdf:ci": "start-server-and-test 3000 generate-pdf",
-    "build": "astro check && tsc --noEmit && yarn generate-pdf:ci && astro build",
+    "build": "astro build",
+    "preview": "astro preview",
     "astro": "astro"
   },
-  "devDependencies": {
-    "@astrojs/tailwind": "^3.0.1",
-    "@fontsource/poppins": "^4.5.10",
-    "@tailwindcss/typography": "^0.5.9",
-    "@types/node": "^18.16.3",
-    "astro": "^2.0.18",
-    "playwright": "^1.37.1",
-    "prettier": "^2.8.8",
-    "prettier-plugin-tailwindcss": "^0.4.1",
-    "start-server-and-test": "^2.0.0",
-    "tailwindcss": "^3.3.3",
-    "ts-node": "^10.9.1"
-  },
-  "dependencies": {}
+  "dependencies": {
+    "@astrojs/react": "^4.2.3",
+    "@tailwindcss/vite": "^4.1.3",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.1",
+    "astro": "^5.6.1",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.487.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "recharts": "^2.15.2",
+    "tailwindcss": "^4.1.3"
+  }
 }
