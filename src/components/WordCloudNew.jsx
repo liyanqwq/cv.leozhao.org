@@ -75,7 +75,7 @@ const WordCloud = ({ skills }) => {
               <div className="opacity-0 group-hover:opacity-100 absolute -translate-x-1/2 left-1/2 -bottom-16 bg-gray-800 text-white text-xs py-1 px-2 rounded flex flex-col items-center z-20 transition-opacity duration-200 pointer-events-none">
                 <span className="whitespace-nowrap font-medium mb-1">{skill.name}</span>
                 {renderStars(skill.value)}
-                <span className="text-[0.7rem] mt-1 opacity-75">{skill.group}</span>
+                <span className="text-[0.7rem] mt-1 opacity-75">{skill.groupTitle}</span>
               </div>
             </div>
           );
