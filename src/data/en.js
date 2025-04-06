@@ -17,8 +17,7 @@ export const enData = {
     title: "Full Stack Web Dev., Cyber Security Professional",
     contact: {
       location: "Kowloon, Hong Kong",
-      phone: "59629443",
-      email: "liyanqwq@gmail.com",
+      email: "liyanqwq#gmail.com",
       website: "liyan.moe",
     },
   },
