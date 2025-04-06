@@ -44,7 +44,7 @@ const Resume = () => {
   // Group skills by category for pie chart
   const skillsByGroup = data.skills.webDev.items.reduce((acc, skill) => {
     if (!acc[skill.group]) {
-      acc[skill.group] = { name: skill.group, count: 0, totalValue: 0 };
+      acc[skill.group] = { name: skill.groupTitle, count: 0, totalValue: 0 };
     }
     acc[skill.group].count += 1;
     acc[skill.group].totalValue += skill.value;
