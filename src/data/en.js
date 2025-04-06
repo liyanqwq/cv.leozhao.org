@@ -22,7 +22,7 @@ export const enData = {
     },
   },
   summary:
-    "Information Security undergraduate at PolyU with proven expertise in cybersecurity competitions and full-stack web development. Champion of multiple CTF competitions. Experienced in developing and maintaining large-scale web applications with modern tech stacks. Strong background in penetration testing, digital forensics, and algorithm contests. Multilingual professional proficient in Chinese, English, and Cantonese.",
+    "Information Security undergraduate at PolyU with proven expertise in cybersecurity competitions and full-stack web development. \n\n* Champion of multiple CTF competitions\n* Experienced in developing and maintaining large-scale web applications with modern tech stacks\n* Strong background in penetration testing, digital forensics, and algorithm contests\n* Multilingual professional proficient in Chinese, English, and Cantonese",
   skills: {
     webDev: {
       title: "Full-Stack Web Development",

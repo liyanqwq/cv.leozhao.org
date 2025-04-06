@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { marked } from 'marked';
 import {
   BarChart,
   Bar,
@@ -139,7 +140,21 @@ const Resume = () => {
                 <User className="w-5 h-5 mr-2" />
                 {data.titles.summary}
               </h2>
-              <p className="text-gray-700 text-justify">{data.summary}</p>
+              <div className="text-gray-700 text-justify">
+                {data.summary.split('\n\n').map((paragraph, index) => (
+                  <React.Fragment key={index}>
+                    {paragraph.startsWith('* ') ? (
+                      <ul className="list-disc pl-5 my-2">
+                        {paragraph.split('\n').map((item, i) => (
+                          <li className="mt-2" key={i}>{item.replace('* ', '')}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="mb-2">{paragraph}</p>
+                    )}
+                  </React.Fragment>
+                ))}
+              </div>
             </section>
 
             {/* Skills section */}
