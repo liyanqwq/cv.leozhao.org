@@ -133,7 +133,7 @@ const Resume = () => {
       <main className="container mx-auto px-4 md:px-8 py-8">
         <div className="lg:flex">
           {/* Left sidebar */}
-          <div className="lg:w-1/2 lg:min-w-90 lg: mr-8">
+          <div className="lg:w-1/2 lg:min-w-90 lg:mr-8 mb-8 lg:mb-0">
             {/* Summary section */}
             <section className="bg-white rounded-lg shadow-md p-6 mb-6">
               <h2 className="text-xl font-bold text-blue-800 flex items-center mb-4">
