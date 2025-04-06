@@ -111,17 +111,17 @@ const Resume = () => {
                 <MapPin className="w-4 h-4 mr-2" />
                 <span>{data.meta.contact.location}</span>
               </div>
-              <div className="flex items-center mb-2">
+              {/* <div className="flex items-center mb-2">
                 <Phone className="w-4 h-4 mr-2" />
                 <span>{data.meta.contact.phone}</span>
-              </div>
+              </div> */}
               <div className="flex items-center mb-2">
                 <Mail className="w-4 h-4 mr-2" />
                 <span>{data.meta.contact.email}</span>
               </div>
               <div className="flex items-center">
                 <Globe className="w-4 h-4 mr-2" />
-                <span>{data.meta.contact.website}</span>
+                <a href={`//${data.meta.contact.website}`}>{data.meta.contact.website}</a>
               </div>
             </div>
           </div>

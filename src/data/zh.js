@@ -17,8 +17,7 @@ export const zhData = {
     title: "全棧網頁開發，網絡安全專業人士",
     contact: {
       location: "香港九龍",
-      phone: "59629443",
-      email: "liyanqwq@gmail.com",
+      email: "liyanqwq#gmail.com",
       website: "liyan.moe",
     },
   },
