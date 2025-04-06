@@ -14,7 +14,7 @@ export const zhData = {
   },
   meta: {
     name: "趙炳程 Leo",
-    title: "全棧網頁開發，網絡安全專業人士",
+    title: "全棧網頁開發者，香港理工大學網絡安全本科生",
     contact: {
       location: "香港九龍",
       email: "liyanqwq#gmail.com",

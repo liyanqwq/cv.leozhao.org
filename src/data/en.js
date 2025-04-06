@@ -14,7 +14,7 @@ export const enData = {
   },
   meta: {
     name: "ZHAO Bingcheng (Leo)",
-    title: "Full Stack Web Dev., Cyber Security Professional",
+    title: "Full Stack Web Dev, PolyU BSc in Information Security",
     contact: {
       location: "Kowloon, Hong Kong",
       email: "liyanqwq#gmail.com",
