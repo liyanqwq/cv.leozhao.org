@@ -7,15 +7,15 @@ const WordCloud = ({ skills }) => {
   
   // Group colors
   const groupColors = {
-    Backend: "#4299e1",    // blue-500
-    Frontend: "#48bb78",   // green-500
-    Framework: "#ed8936",  // orange-500
-    Language: "#9f7aea",   // purple-500
-    Library: "#f56565",    // red-500
-    CSS: "#ecc94b",        // yellow-500
-    API: "#667eea",        // indigo-500
-    DevOps: "#ed64a6",     // pink-500
-    Database: "#4fd1c5"    // teal-500
+    Backend: "bg-blue-800",    // blue-500
+    Frontend: "bg-green-800",   // green-500
+    Framework: "bg-orange-800",  // orange-500
+    Language: "bg-purple-800",   // purple-500
+    Library: "bg-red-800",    // red-500
+    CSS: "bg-yellow-800",        // yellow-500
+    API: "bg-indigo-800",        // indigo-500
+    DevOps: "bg-pink-800",     // pink-500
+    Database: "bg-teal-800"    // teal-500
   };
   
   // Render stars for skill level
@@ -64,15 +64,18 @@ const WordCloud = ({ skills }) => {
               onClick={() => setHoveredSkill(skill.name === hoveredSkill ? null : skill.name)}
             >
               <div 
-                className="w-10 h-10 group-hover:opacity-100 group-hover:border group-hover:border-black/60 group-hover:brightness-125 rounded-sm cursor-pointer transition-all duration-100"
+                className="w-10 h-10 group-hover:opacity-100 group-hover:border group-hover:border-black/60 group-hover:brightness-125 rounded-xl cursor-pointer transition-all duration-100"
                 style={{
-                  backgroundColor: baseColor,
+                  background: `url(https://skillicons.dev/icons?theme=light&i=${skill.icon})`,
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center center',
+                  backgroundSize: '100%',
                   opacity: intensityLevel * 0.2 + 0.2,
                 }}
               />
               
               {/* Tooltip showing skill name and rating */}
-              <div className="opacity-0 group-hover:opacity-100 absolute -translate-x-1/2 left-1/2 -bottom-16 bg-gray-800 text-white text-xs py-1 px-2 rounded flex flex-col items-center z-20 transition-opacity duration-200 pointer-events-none">
+              <div className={`opacity-0 group-hover:opacity-100 absolute -translate-x-1/2 left-1/2 -bottom-16 ${baseColor} text-white text-xs py-1 px-2 rounded flex flex-col items-center z-20 transition-opacity duration-200 pointer-events-none`}>
                 <span className="whitespace-nowrap font-medium mb-1">{skill.name}</span>
                 {renderStars(skill.value)}
                 <span className="text-[0.7rem] mt-1 opacity-75">{skill.groupTitle}</span>
