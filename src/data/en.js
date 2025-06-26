@@ -229,6 +229,13 @@ export const enData = {
   ],
   awards: [
     {
+      name: "HKSARG Talent Development Scholarship (2024-25)",
+      competition: "HKSAR Government Scholarship Fund",
+      details: "香港特區政府獎學基金 - 才藝發展獎學金",
+      date: "Jun 2025",
+      category: "Scholarship",
+    },
+    {
       name: "Champion",
       competition: "BSides HK CTF 2025",
       details: "BSides Hong Kong Capture the Flag Competition",
@@ -252,7 +259,7 @@ export const enData = {
     {
       name: "HKSARG Talent Development Scholarship (2023-24)",
       competition: "HKSAR Government Scholarship Fund",
-      details: "香港政府才藝發展獎學金",
+      details: "香港特區政府獎學基金 - 才藝發展獎學金",
       date: "Apr 2024",
       category: "Scholarship",
     },

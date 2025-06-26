@@ -208,6 +208,13 @@ export const zhData = {
   ],
   awards: [
     {
+      name: "香港特區政府獎學基金 - 才藝發展獎學金 (2024-25)",
+      competition: "香港特別行政區政府教育局",
+      details: "HKSARG Talent Development Scholarship",
+      date: "2025年6月",
+      category: "Scholarship",
+    },
+    {
       name: "冠軍",
       competition: "BSides HK CTF 2025",
       //   details: "BSides HK 網安攻防賽",
@@ -229,7 +236,7 @@ export const zhData = {
       category: "CyberSecurity",
     },
     {
-      name: "香港特區政府人才發展獎學金 (2023-24)",
+      name: "香港特區政府獎學基金 - 才藝發展獎學金 (2023-24)",
       competition: "香港特別行政區政府教育局",
       details: "HKSARG Talent Development Scholarship",
       date: "2024年4月",
