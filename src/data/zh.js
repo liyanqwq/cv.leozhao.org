@@ -1,5 +1,5 @@
 export const zhData = {
-  lastUpdated: "7 Apr 2025",
+  lastUpdated: "11 Dec 2025",
   titles: {
     meta: "個人資料",
     summary: "簡介",
@@ -14,7 +14,7 @@ export const zhData = {
   },
   meta: {
     name: "趙炳程 Leo",
-    title: "全棧網頁開發者，香港理工大學網絡安全本科生",
+    title: "CRTP | 香港理工大學網絡安全本科生, 理大 CTF 團隊 NuttyShell 成員 | 紅隊滲透測試員, 全棧網頁開發工程師",
     contact: {
       location: "香港九龍",
       email: "liyanqwq#gmail.com",
@@ -22,7 +22,7 @@ export const zhData = {
     },
   },
   summary:
-    "香港理工大學資訊安全專業在讀，在網絡安全競賽和全棧網頁開發方面擁有豐富經驗。\n\n* 多項CTF競賽冠軍\n* 具備使用現代技術棧開發和維護大型網絡應用的經驗\n* 在滲透測試、數碼鑑證和算法競賽方面擁有扎實背景\n* 精通中文、英語和粵語的多語言專業人士",
+    "香港理工大學資訊安全專業在讀，具備紅隊實戰經驗的網絡安全專家。持有認證紅隊專業人員(CRTP)證書，擅長Active Directory攻擊和內網滲透測試。\n\n* 多項CTF競賽冠軍，包括BSides HK CTF 2025\n* 認證紅隊專業人員，專精Active Directory攻擊技術\n* 在滲透測試、紅隊行動和數碼鑑證方面擁有扎實背景\n* 具備安全應用設計理念的全棧開發經驗",
   skills: {
     webDev: {
       title: "全棧網頁開發",
@@ -34,11 +34,9 @@ export const zhData = {
         { name: "Flask", value: 75, group: "Framework", groupTitle: "框架", icon: "flask" },
         { name: "NodeJS", value: 80, group: "Backend", groupTitle: "後端", icon: "nodejs" },
         { name: "TypeScript", value: 85, group: "Language", groupTitle: "語言", icon: "ts" },
-        { name: "Astro", value: 70, group: "Framework", groupTitle: "框架", icon: "astro" },
         { name: "HTML5", value: 95, group: "Frontend", groupTitle: "前端", icon: "html" },
         { name: "CSS", value: 92, group: "Frontend", groupTitle: "前端", icon: "css" },
         { name: "JavaScript", value: 90, group: "Frontend", groupTitle: "前端", icon: "js" },
-        { name: "jQuery", value: 80, group: "Library", groupTitle: "庫", icon: "jquery" },
         { name: "Tailwind CSS", value: 90, group: "CSS", groupTitle: "CSS", icon: "tailwind" },
         { name: "RESTful API", value: 85, group: "API", groupTitle: "API", icon: "postman" },
         { name: "Git", value: 90, group: "DevOps", groupTitle: "DevOps", icon: "git" },
@@ -55,19 +53,25 @@ export const zhData = {
       title: "網絡安全",
       categories: [
         {
+          name: "紅隊",
+          level: 4,
+          items: [
+            "Active Directory 攻擊",
+            "Kerberos 利用",
+            "橫向移動",
+            "域權限提升",
+            "跨域信任濫用",
+          ],
+        },
+        {
           name: "滲透測試",
           level: 5,
-          items: ["網頁", "逆向工程", "開源情報", "社會工程學", "API安全"],
+          items: ["網頁應用安全", "逆向工程", "開源情報", "社會工程學", "API安全"],
         },
         {
           name: "數碼鑑證",
           level: 3,
           items: ["隱寫術", "網絡流量分析", "電腦/手機鑑證"],
-        },
-        {
-          name: "紅隊",
-          level: 1,
-          items: ["Active Directory"],
         },
       ],
     },
@@ -87,13 +91,23 @@ export const zhData = {
   experience: [
     {
       company: "香港理工大學會計與金融學院",
-      position: "實習生",
+      position: "學生研究助理（STEM）",
+      period: "2025年11月 - 2026年1月",
+      location: "香港",
+      skills: ["Python", "機器學習", "數據分析"],
+      responsibilities: [
+        "與研究團隊緊密合作進行數據分析及基於機器學習的非結構化數據特徵提取。",
+        "構建自動化系統執行複雜數據轉換。",
+      ],
+    },
+    {
+      company: "香港理工大學會計與金融學院",
+      position: "學生研究助理（STEM）",
       period: "2024年12月 - 2025年1月",
       location: "香港",
-      skills: ["Python", "機器學習", "數據分析", "自動化"],
+      skills: ["Python", "機器學習", "數據分析"],
       responsibilities: [
-        "與研究團隊緊密合作解決各種挑戰。",
-        "運用機器學習進行非結構化數據的特徵提取和分類。",
+        "與研究團隊緊密合作進行數據分析及基於機器學習的非結構化數據特徵提取。",
         "構建自動化系統執行複雜數據轉換。",
       ],
     },
@@ -115,29 +129,25 @@ export const zhData = {
       skills: [
         "前端優化",
         "ICP合規",
-        "內容過濾",
-        "客戶管理",
         "JavaScript",
         "CSS",
       ],
       responsibilities: [
-        "重構前端服務以優化網站在中國不同地區特定網絡環境下的速度。",
-        "主導ICP合規流程並協助內容過濾。",
-        "協助客戶管理。",
+        "優化前端性能以適應中國網絡環境並主導ICP合規流程。",
       ],
     },
-    {
-      company: "對岸科技（北京）有限公司",
-      position: "首席技術官",
-      period: "2021年3月 - 2022年12月",
-      location: "遠程，中國北京",
-      skills: ["Laravel", "PHP", "網絡基礎設施", "團隊領導", "合規", "MySQL"],
-      responsibilities: [
-        "獨立設計並開發VirtNation計劃並領導其運營。",
-        "維護公司的網絡基礎設施。",
-        "領導公司的合規實務。",
-      ],
-    },
+    // {
+    //   company: "對岸科技（北京）有限公司",
+    //   position: "首席技術官",
+    //   period: "2021年3月 - 2022年12月",
+    //   location: "遠程，中國北京",
+    //   skills: ["Laravel", "PHP", "網絡基礎設施", "團隊領導", "合規", "MySQL"],
+    //   responsibilities: [
+    //     "獨立設計並開發VirtNation計劃並領導其運營。",
+    //     "維護公司的網絡基礎設施。",
+    //     "領導公司的合規實務。",
+    //   ],
+    // },
   ],
   projects: [
     {
@@ -150,22 +160,22 @@ export const zhData = {
         "開發了多個Hydro的開源插件，其中一些被廣泛應用。",
       ],
     },
-    {
-      name: "VirtNation",
-      description: "中國微型國家社區平台",
-      period: "2021年7月 - 2022年11月",
-      technologies: "Laravel, PHP, MySQL, Tailwind CSS",
-      details: [
-        "設計和開發了一個流暢、極簡的用戶界面平台。",
-        "優化了中國不同地區用戶的頁面載入速度，並致力於中國內地互聯網合規。",
-      ],
-    },
+    // {
+    //   name: "VirtNation",
+    //   description: "中國微型國家社區平台",
+    //   period: "2021年7月 - 2022年11月",
+    //   technologies: "Laravel, PHP, MySQL, Tailwind CSS",
+    //   details: [
+    //     "設計和開發了一個流暢、極簡的用戶界面平台。",
+    //     "優化了中國不同地區用戶的頁面載入速度，並致力於中國內地互聯網合規。",
+    //   ],
+    // },
   ],
   certifications: [
     {
-      name: "業餘電台執照",
-      issuer: "香港通訊事務管理局辦公室",
-      date: "2024年11月",
+      name: "認證紅隊專業人員 (CRTP)",
+      issuer: "Altered Security",
+      date: "2025年12月",
     },
     {
       name: "網絡與信息安全管理工程師（中級）",
@@ -176,6 +186,12 @@ export const zhData = {
       name: "遙控駕駛員證書（小型無人機）",
       issuer: "香港特別行政區政府民航處",
       date: "2025年3月",
+    },
+    {
+      name: "業餘電台執照",
+      issuer: "香港通訊事務管理局辦公室",
+      date: "2024年11月",
+      callsign: "VR2ZUN",
     },
     {
       name: "Legacy JavaScript Algorithms and Data Structures",
@@ -207,6 +223,13 @@ export const zhData = {
     },
   ],
   awards: [
+    {
+      name: "銅獎（港澳組季軍）",
+      competition: "2025年「灣區杯」網絡安全大賽決賽",
+      details: "The 2025 GBA Cup Cybersecurity Competition",
+      date: "2025年9月",
+      category: "CyberSecurity",
+    },
     {
       name: "香港特區政府獎學基金 - 才藝發展獎學金 (2024-25)",
       competition: "香港特別行政區政府教育局",

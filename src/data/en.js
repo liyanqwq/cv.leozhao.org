@@ -1,5 +1,5 @@
 export const enData = {
-  lastUpdated: "7 Apr 2025",
+  lastUpdated: "11 Dec 2025",
   titles: {
     meta: "Personal Information",
     summary: "Summary",
@@ -14,7 +14,7 @@ export const enData = {
   },
   meta: {
     name: "ZHAO Bingcheng (Leo)",
-    title: "Full Stack Web Dev, PolyU BSc in Information Security",
+    title: "CRTP | PolyU BSc InfoSec, Member of NuttyShell (PolyU CTF Team) | Red Team Operator, Full-Stack Web Developer",
     contact: {
       location: "Kowloon, Hong Kong",
       email: "liyanqwq#gmail.com",
@@ -22,7 +22,7 @@ export const enData = {
     },
   },
   summary:
-    "Information Security undergraduate at PolyU with proven expertise in cybersecurity competitions and full-stack web development. \n\n* Champion of multiple CTF competitions\n* Experienced in developing and maintaining large-scale web applications with modern tech stacks\n* Strong background in penetration testing, digital forensics, and algorithm contests\n* Multilingual professional proficient in Chinese, English, and Cantonese",
+    "Information Security undergraduate at PolyU with proven expertise in cybersecurity and red team operations. Certified Red Team Professional (CRTP) with hands-on experience in Active Directory exploitation and internal network penetration testing.\n\n* Champion of multiple CTF competitions including BSides HK CTF 2025\n* Certified Red Team Professional specializing in Active Directory attacks\n* Strong background in penetration testing, red teaming, and digital forensics\n* Experienced full-stack developer with focus on secure application design",
   skills: {
     webDev: {
       title: "Full-Stack Web Development",
@@ -34,11 +34,9 @@ export const enData = {
         { name: "Flask", value: 75, group: "Framework", groupTitle: "Framework", icon: "flask" },
         { name: "NodeJS", value: 80, group: "Backend", groupTitle: "Backend", icon: "nodejs" },
         { name: "TypeScript", value: 85, group: "Language", groupTitle: "Language", icon: "ts" },
-        { name: "Astro", value: 70, group: "Framework", groupTitle: "Framework", icon: "astro" },
         { name: "HTML5", value: 95, group: "Frontend", groupTitle: "Frontend", icon: "html" },
         { name: "CSS", value: 92, group: "Frontend", groupTitle: "Frontend", icon: "css" },
         { name: "JavaScript", value: 90, group: "Frontend", groupTitle: "Frontend", icon: "js" },
-        { name: "jQuery", value: 80, group: "Library", groupTitle: "Library", icon: "jquery" },
         { name: "Tailwind CSS", value: 90, group: "CSS", groupTitle: "CSS", icon: "tailwind" },
         { name: "RESTful API", value: 85, group: "API", groupTitle: "API", icon: "postman" },
         { name: "Git", value: 90, group: "DevOps", groupTitle: "DevOps", icon: "git" },
@@ -55,10 +53,21 @@ export const enData = {
       title: "Cyber Security",
       categories: [
         {
+          name: "Red Team Operations",
+          level: 4,
+          items: [
+            "Active Directory Attacks",
+            "Kerberos Exploitation",
+            "Lateral Movement",
+            "Domain Privilege Escalation",
+            "Cross-Domain Trust Abuse",
+          ],
+        },
+        {
           name: "Penetration Testing",
           level: 5,
           items: [
-            "Web",
+            "Web Application Security",
             "Reverse Engineering",
             "OSINT",
             "Social Engineering",
@@ -73,11 +82,6 @@ export const enData = {
             "Network Traffic Analysis",
             "Computer / Mobile Forensics",
           ],
-        },
-        {
-          name: "Red Team",
-          level: 1,
-          items: ["Active Directory"],
         },
       ],
     },
@@ -101,14 +105,24 @@ export const enData = {
   experience: [
     {
       company: "School of Accounting and Finance, PolyU",
-      position: "Intern",
+      position: "Student Research Assistant (STEM Internship)",
+      period: "Nov 2025 - Jan 2026",
+      location: "Hong Kong",
+      skills: ["Python", "Machine Learning", "Data Analysis"],
+      responsibilities: [
+        "Work closely with research team on data analysis and ML-based feature extraction for unstructured data.",
+        "Build automated systems for complex data transformations.",
+      ],
+    },
+    {
+      company: "School of Accounting and Finance, PolyU",
+      position: "Student Research Assistant (STEM Internship)",
       period: "Dec 2024 - Jan 2025",
       location: "Hong Kong",
-      skills: ["Python", "Machine Learning", "Data Analysis", "Automation"],
+      skills: ["Python", "Machine Learning", "Data Analysis"],
       responsibilities: [
-        "Work closely with the research team to solve various challenges.",
-        "Using Machine Learning for feature extraction and classification of unstructured data.",
-        "Build automated systems to perform complex data transformations.",
+        "Work closely with research team on data analysis and ML-based feature extraction for unstructured data.",
+        "Build automated systems for complex data transformations.",
       ],
     },
     {
@@ -129,36 +143,32 @@ export const enData = {
       skills: [
         "Frontend Optimization",
         "ICP Compliance",
-        "Content Filtering",
-        "Client Management",
         "JavaScript",
         "CSS",
       ],
       responsibilities: [
-        "Restructured the frontend service to optimize the website speed for the specific network environment of different regions in Mainland China.",
-        "Led the ICP compliance process and assisted in content filtering.",
-        "Assisted with client management.",
+        "Optimized frontend performance for China's network environment and led ICP compliance.",
       ],
     },
-    {
-      company: "DuianTech",
-      position: "Chief Technical Officer",
-      period: "Mar 2021 - Dec 2022",
-      location: "Remote, Beijing China",
-      skills: [
-        "Laravel",
-        "PHP",
-        "Network Infrastructure",
-        "Team Leadership",
-        "Compliance",
-        "MySQL",
-      ],
-      responsibilities: [
-        "Independently designed and developed the VirtNation program and led its operation.",
-        "Maintained the company's network infrastructure",
-        "Led the company's compliance practice",
-      ],
-    },
+    // {
+    //   company: "DuianTech",
+    //   position: "Chief Technical Officer",
+    //   period: "Mar 2021 - Dec 2022",
+    //   location: "Remote, Beijing China",
+    //   skills: [
+    //     "Laravel",
+    //     "PHP",
+    //     "Network Infrastructure",
+    //     "Team Leadership",
+    //     "Compliance",
+    //     "MySQL",
+    //   ],
+    //   responsibilities: [
+    //     "Independently designed and developed the VirtNation program and led its operation.",
+    //     "Maintained the company's network infrastructure",
+    //     "Led the company's compliance practice",
+    //   ],
+    // },
   ],
   projects: [
     {
@@ -171,22 +181,22 @@ export const enData = {
         "Developed several open-source addons for Hydro, and some of them are widely used.",
       ],
     },
-    {
-      name: "VirtNation",
-      description: "Community platform for Chinese micronations.",
-      period: "Jul 2021 - Nov 2022",
-      technologies: "Laravel, PHP, MySQL, Tailwind CSS",
-      details: [
-        "Designed and developed the platform in a fluent, minimalist user interface with responsibility.",
-        "Optimized page speeds for users in different regions of China and worked on internet compliance in mainland China.",
-      ],
-    },
+    // {
+    //   name: "VirtNation",
+    //   description: "Community platform for Chinese micronations.",
+    //   period: "Jul 2021 - Nov 2022",
+    //   technologies: "Laravel, PHP, MySQL, Tailwind CSS",
+    //   details: [
+    //     "Designed and developed the platform in a fluent, minimalist user interface with responsibility.",
+    //     "Optimized page speeds for users in different regions of China and worked on internet compliance in mainland China.",
+    //   ],
+    // },
   ],
   certifications: [
     {
-      name: "Remote Pilot Certificate (SUA)",
-      issuer: "Civil Aviation Department, HKSAR",
-      date: "Mar 2025",
+      name: "Certified Red Team Professional (CRTP)",
+      issuer: "Altered Security",
+      date: "Dec 2025",
     },
     {
       name: "Network and Information Security Management Engineer (Intermediate)",
@@ -194,9 +204,15 @@ export const enData = {
       date: "Mar 2025",
     },
     {
+      name: "Remote Pilot Certificate (SUA)",
+      issuer: "Civil Aviation Department, HKSAR",
+      date: "Mar 2025",
+    },
+    {
       name: "Amateur Radio Station License",
       issuer: "Office of the Communications Authority, HKSAR",
       date: "Nov 2024",
+      callsign: "VR2ZUN",
     },
     {
       name: "Legacy JavaScript Algorithms and Data Structures",
@@ -228,6 +244,13 @@ export const enData = {
     },
   ],
   awards: [
+    {
+      name: "Bronze Medal (HK & Macau Category)",
+      competition: 'The 2025 "GBA Cup" Cybersecurity Competition',
+      details: "「灣區杯」網絡安全大賽決賽季軍 (港澳組)",
+      date: "Sep 2025",
+      category: "CyberSecurity",
+    },
     {
       name: "HKSARG Talent Development Scholarship (2024-25)",
       competition: "HKSAR Government Scholarship Fund",
