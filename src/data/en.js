@@ -1,5 +1,5 @@
 export const enData = {
-  lastUpdated: "11 Dec 2025",
+  lastUpdated: "16 Jan 2026",
   titles: {
     meta: "Personal Information",
     summary: "Summary",
@@ -14,7 +14,7 @@ export const enData = {
   },
   meta: {
     name: "ZHAO Bingcheng (Leo)",
-    title: "CRTP | PolyU BSc InfoSec, Member of NuttyShell (PolyU CTF Team) | Red Team Operator, Full-Stack Web Developer",
+    title: "CyberSec Practitioner @ HK PolyU NuttyShell | Web Dev",
     contact: {
       location: "Kowloon, Hong Kong",
       email: "liyanqwq#gmail.com",
@@ -22,7 +22,7 @@ export const enData = {
     },
   },
   summary:
-    "Information Security undergraduate at PolyU with proven expertise in cybersecurity and red team operations. Certified Red Team Professional (CRTP) with hands-on experience in Active Directory exploitation and internal network penetration testing.\n\n* Champion of multiple CTF competitions including BSides HK CTF 2025\n* Certified Red Team Professional specializing in Active Directory attacks\n* Strong background in penetration testing, red teaming, and digital forensics\n* Experienced full-stack developer with focus on secure application design",
+    "Information Security undergraduate at The Hong Kong Polytechnic University and Certified Red Team Professional (CRTP). Proven offensive security expertise demonstrated through multiple championships in regional Cybersecurity CTF Competitions (e.g., BSides HK, Yangcheng Cup). Experienced in full-stack development with a strong focus on secure coding and automation. Multilingual professional proficient in English, Chinese, and Cantonese.",
   skills: {
     webDev: {
       title: "Full-Stack Web Development",
@@ -53,8 +53,8 @@ export const enData = {
       title: "Cyber Security",
       categories: [
         {
-          name: "Red Team Operations",
-          level: 4,
+          name: "Red Teaming",
+          level: 5,
           items: [
             "Active Directory Attacks",
             "Kerberos Exploitation",
@@ -64,14 +64,21 @@ export const enData = {
           ],
         },
         {
-          name: "Penetration Testing",
+          name: "Web Exploitation",
           level: 5,
           items: [
             "Web Application Security",
-            "Reverse Engineering",
-            "OSINT",
-            "Social Engineering",
             "API Security",
+            "Social Engineering",
+          ],
+        },
+        {
+          name: "Reverse Engineering",
+          level: 4,
+          items: [
+            "Binary Analysis",
+            "Malware Analysis",
+            "Vulnerability Research",
           ],
         },
         {
@@ -92,8 +99,8 @@ export const enData = {
       proficiency: "Native with Standard Mandarin",
       level: 100,
     },
-    { name: "English", proficiency: "Proficient", level: 85 },
-    { name: "Cantonese", proficiency: "Intermediate", level: 70 },
+    { name: "Cantonese", proficiency: "Proficient", level: 80 },
+    { name: "English", proficiency: "Proficient", level: 80 },
   ],
   education: [
     {
@@ -106,12 +113,12 @@ export const enData = {
     {
       company: "School of Accounting and Finance, PolyU",
       position: "Student Research Assistant (STEM Internship)",
-      period: "Nov 2025 - Jan 2026",
+      period: "Nov 2024 - Jan 2025",
       location: "Hong Kong",
-      skills: ["Python", "Machine Learning", "Data Analysis"],
+      skills: ["Python", "Machine Learning", "Data Analysis", "GIS"],
       responsibilities: [
-        "Work closely with research team on data analysis and ML-based feature extraction for unstructured data.",
-        "Build automated systems for complex data transformations.",
+        "Processed government spatial datasets to correlate building information with land lots for land grant analysis.",
+        "Applied AI and machine learning techniques to examine US SEC filings and detect sentiment in audio-visual materials.",
       ],
     },
     {
@@ -121,8 +128,8 @@ export const enData = {
       location: "Hong Kong",
       skills: ["Python", "Machine Learning", "Data Analysis"],
       responsibilities: [
-        "Work closely with research team on data analysis and ML-based feature extraction for unstructured data.",
-        "Build automated systems for complex data transformations.",
+        "Collected public real estate data and developed Python scripts to parse unstructured PRN data from legacy databases.",
+        "Analyzed regulatory inquiry letters from Chinese authorities using AI models.",
       ],
     },
     {
@@ -172,6 +179,24 @@ export const enData = {
   ],
   projects: [
     {
+      name: "Website, NuttyShell (The PolyU CTF Team)",
+      description: "Official website for the PolyU CTF Team.",
+      period: "Aug 2025 - Present",
+      technologies: "Astro, TypeScript, Tailwind CSS",
+      details: [
+        "Independently designed and developed the migration of the official website from WordPress to a static architecture using Astro and Tailwind CSS, significantly enhancing platform security, performance, and accessibility.",
+      ],
+    },
+    {
+      name: "NuttyBadge, PolyU x NuttyShell CTF 2025",
+      description: "Hardware souvenir badge for the CTF competition.",
+      period: "May 2025",
+      technologies: "ESP-IDF, IoT, C",
+      details: [
+        "Refined core software modules for the NuttyBadge hardware (souvenir of the CTF), specifically optimizing the logic for the WiFi Scanner, Bluetooth Scanner, and RGB Control units.",
+      ],
+    },
+    {
       name: "SGOJ",
       description: "Online judge platform for algorithm contests.",
       period: "May 2020 - Dec 2022",
@@ -206,7 +231,7 @@ export const enData = {
     {
       name: "Remote Pilot Certificate (SUA)",
       issuer: "Civil Aviation Department, HKSAR",
-      date: "Mar 2025",
+      date: "May 2025",
     },
     {
       name: "Amateur Radio Station License",
@@ -231,16 +256,6 @@ export const enData = {
       issuer: "NuttyShell CTF Team",
       description: "The Hong Kong Polytechnic University",
       date: "Sep 2023 - Present",
-    },
-    {
-      name: "Member",
-      issuer: "Chinese Computer Federation",
-      date: "Feb 2022",
-    },
-    {
-      name: "Member",
-      issuer: "The Chinese Mathematical Society",
-      date: "Feb 2022",
     },
   ],
   awards: [

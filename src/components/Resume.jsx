@@ -296,13 +296,19 @@ const Resume = () => {
                       ))}
                     </div>
 
-                    <ul className="list-disc list-inside text-gray-700 pl-2">
-                      {exp.responsibilities.map((resp, idx) => (
-                        <li key={idx} className="mb-1 text-justify">
-                          {resp}
-                        </li>
-                      ))}
-                    </ul>
+                    {exp.responsibilities.length === 1 ? (
+                      <div className="text-gray-700 text-justify">
+                        {exp.responsibilities[0]}
+                      </div>
+                    ) : (
+                      <ul className="list-disc list-inside text-gray-700 pl-2">
+                        {exp.responsibilities.map((resp, idx) => (
+                          <li key={idx} className="mb-1 text-justify">
+                            {resp}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
                   </div>
                 </div>
               ))}
@@ -337,13 +343,19 @@ const Resume = () => {
                       ))}
                     </div>
 
-                    <ul className="list-disc list-inside text-gray-700 pl-2">
-                      {project.details.map((detail, idx) => (
-                        <li key={idx} className="mb-1 text-justify">
-                          {detail}
-                        </li>
-                      ))}
-                    </ul>
+                    {project.details.length === 1 ? (
+                      <div className="text-gray-700 text-justify">
+                        {project.details[0]}
+                      </div>
+                    ) : (
+                      <ul className="list-disc list-inside text-gray-700 pl-2">
+                        {project.details.map((detail, idx) => (
+                          <li key={idx} className="mb-1 text-justify">
+                            {detail}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
                   </div>
                 </div>
               ))}

@@ -1,5 +1,5 @@
 export const zhData = {
-  lastUpdated: "11 Dec 2025",
+  lastUpdated: "16 Jan 2026",
   titles: {
     meta: "個人資料",
     summary: "簡介",
@@ -14,7 +14,7 @@ export const zhData = {
   },
   meta: {
     name: "趙炳程 Leo",
-    title: "CRTP | 香港理工大學網絡安全本科生, 理大 CTF 團隊 NuttyShell 成員 | 紅隊滲透測試員, 全棧網頁開發工程師",
+    title: "網絡安全從業者 @ 香港理工大學 NuttyShell 團隊 | 網頁開發",
     contact: {
       location: "香港九龍",
       email: "liyanqwq#gmail.com",
@@ -22,7 +22,7 @@ export const zhData = {
     },
   },
   summary:
-    "香港理工大學資訊安全專業在讀，具備紅隊實戰經驗的網絡安全專家。持有認證紅隊專業人員(CRTP)證書，擅長Active Directory攻擊和內網滲透測試。\n\n* 多項CTF競賽冠軍，包括BSides HK CTF 2025\n* 認證紅隊專業人員，專精Active Directory攻擊技術\n* 在滲透測試、紅隊行動和數碼鑑證方面擁有扎實背景\n* 具備安全應用設計理念的全棧開發經驗",
+    "香港理工大學資訊安全專業在讀，持有認證紅隊專業人員(CRTP)證書。通過多項地區性網絡安全CTF競賽冠軍（如BSides HK、羊城杯）展現進攻性安全實戰能力。具備全棧開發經驗，專注於安全編碼和自動化。精通英語、普通話和粵語。",
   skills: {
     webDev: {
       title: "全棧網頁開發",
@@ -54,7 +54,7 @@ export const zhData = {
       categories: [
         {
           name: "紅隊",
-          level: 4,
+          level: 5,
           items: [
             "Active Directory 攻擊",
             "Kerberos 利用",
@@ -64,9 +64,14 @@ export const zhData = {
           ],
         },
         {
-          name: "滲透測試",
+          name: "網頁漏洞利用",
           level: 5,
-          items: ["網頁應用安全", "逆向工程", "開源情報", "社會工程學", "API安全"],
+          items: ["網頁應用安全", "API安全", "社會工程學"],
+        },
+        {
+          name: "逆向工程",
+          level: 4,
+          items: ["二進制分析", "惡意軟件分析", "漏洞研究"],
         },
         {
           name: "數碼鑑證",
@@ -78,8 +83,8 @@ export const zhData = {
   },
   languages: [
     { name: "中文", proficiency: "母語（普通話）", level: 100 },
-    { name: "英語", proficiency: "熟練", level: 85 },
-    { name: "粵語", proficiency: "中級", level: 70 },
+    { name: "粵語", proficiency: "熟練", level: 80 },
+    { name: "英語", proficiency: "熟練", level: 80 },
   ],
   education: [
     {
@@ -92,12 +97,12 @@ export const zhData = {
     {
       company: "香港理工大學會計與金融學院",
       position: "學生研究助理（STEM）",
-      period: "2025年11月 - 2026年1月",
+      period: "2024年11月 - 2025年1月",
       location: "香港",
-      skills: ["Python", "機器學習", "數據分析"],
+      skills: ["Python", "機器學習", "數據分析", "GIS"],
       responsibilities: [
-        "與研究團隊緊密合作進行數據分析及基於機器學習的非結構化數據特徵提取。",
-        "構建自動化系統執行複雜數據轉換。",
+        "處理政府空間數據集，將建築信息與地塊關聯，用於土地批租分析。",
+        "應用人工智能和機器學習技術分析美國證券交易委員會文件，並檢測視聽材料中的情感特徵。",
       ],
     },
     {
@@ -107,8 +112,8 @@ export const zhData = {
       location: "香港",
       skills: ["Python", "機器學習", "數據分析"],
       responsibilities: [
-        "與研究團隊緊密合作進行數據分析及基於機器學習的非結構化數據特徵提取。",
-        "構建自動化系統執行複雜數據轉換。",
+        "收集公開房地產數據，開發Python腳本解析舊數據庫中的非結構化PRN數據。",
+        "使用人工智能模型分析中國監管機構的詢問函。",
       ],
     },
     {
@@ -151,6 +156,24 @@ export const zhData = {
   ],
   projects: [
     {
+      name: "NuttyShell 官方網站",
+      description: "香港理工大學 CTF 戰隊官網",
+      period: "2025年8月 - 現在",
+      technologies: "Astro, TypeScript, Tailwind CSS",
+      details: [
+        "獨立設計並開發官方網站從 WordPress 遷移至基於 Astro 和 Tailwind CSS 的靜態架構，顯著提升平台安全性、性能和可訪問性。",
+      ],
+    },
+    {
+      name: "NuttyBadge",
+      description: "PolyU x NuttyShell CTF 2025 紀念徽章",
+      period: "2025年5月",
+      technologies: "ESP-IDF, IoT, C",
+      details: [
+        "優化 NuttyBadge 硬件（CTF 比賽紀念品）的核心軟件模塊，專注於 WiFi 掃描器、藍牙掃描器和 RGB 控制單元的邏輯優化。",
+      ],
+    },
+    {
       name: "SGOJ",
       description: "算法競賽在線評測平台",
       period: "2020年5月 - 2022年12月",
@@ -185,7 +208,7 @@ export const zhData = {
     {
       name: "遙控駕駛員證書（小型無人機）",
       issuer: "香港特別行政區政府民航處",
-      date: "2025年3月",
+      date: "2025年5月",
     },
     {
       name: "業餘電台執照",
@@ -210,16 +233,6 @@ export const zhData = {
       issuer: "NuttyShell CTF Team",
       description: "香港理工大學",
       date: "2023年9月 - 現在",
-    },
-    {
-      name: "會員",
-      issuer: "中國計算機學會",
-      date: "2022年2月",
-    },
-    {
-      name: "會員",
-      issuer: "中國數學會",
-      date: "2022年2月",
     },
   ],
   awards: [
