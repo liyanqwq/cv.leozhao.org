@@ -157,6 +157,51 @@ const Resume = () => {
               </div>
             </section>
 
+            {/* Education section */}
+            <section className="bg-white rounded-lg shadow-md p-6 mb-6">
+              <h2 className="text-xl font-bold text-blue-800 flex items-center mb-4">
+                <Book className="w-5 h-5 mr-2" />
+                {data.titles.education}
+              </h2>
+              {data.education.map((edu, index) => (
+                <div key={index} className="mb-4 last:mb-0">
+                  <h3 className="font-semibold">{edu.institution}</h3>
+                  <p className="text-gray-700">{edu.degree}</p>
+                  <p className="text-sm text-gray-500 whitespace-normal break-words">
+                    {edu.period}
+                  </p>
+                </div>
+              ))}
+            </section>
+
+            {/* Services/Memberships section */}
+            <section className="bg-white rounded-lg shadow-md p-6 mb-6">
+              <h2 className="text-xl font-bold text-blue-800 flex items-center mb-4">
+                <User className="w-5 h-5 mr-2" />
+                {data.titles.services}
+              </h2>
+              <div className="space-y-3">
+                {data.services &&
+                  data.services.map((service, index) => (
+                    <div
+                      key={index}
+                      className="py-2 border-b border-gray-100 last:border-0"
+                    >
+                      <h3 className="font-medium">{service.name}</h3>
+                      <p className="text-sm text-gray-600">{service.issuer}</p>
+                      {service.description && (
+                        <p className="text-xs text-gray-500">
+                          {service.description}
+                        </p>
+                      )}
+                      <p className="text-sm text-gray-500 whitespace-normal break-words mt-1">
+                        {service.date}
+                      </p>
+                    </div>
+                  ))}
+              </div>
+            </section>
+
             {/* Skills section */}
             <section className="bg-white rounded-lg shadow-md p-6 mb-6">
               <h2 className="text-xl font-bold text-blue-800 flex items-center mb-4">
@@ -237,30 +282,13 @@ const Resume = () => {
             </section>
 
             {/* Languages section */}
-            <section className="bg-white rounded-lg shadow-md p-6 mb-6">
+            <section className="bg-white rounded-lg shadow-md p-6">
               <h2 className="text-xl font-bold text-blue-800 flex items-center mb-4">
                 <Globe className="w-5 h-5 mr-2" />
                 {data.titles.languages}
               </h2>
               {data.languages.map((language, index) => (
                 <LanguageProficiency key={index} language={language} />
-              ))}
-            </section>
-
-            {/* Education section */}
-            <section className="bg-white rounded-lg shadow-md p-6">
-              <h2 className="text-xl font-bold text-blue-800 flex items-center mb-4">
-                <Book className="w-5 h-5 mr-2" />
-                {data.titles.education}
-              </h2>
-              {data.education.map((edu, index) => (
-                <div key={index} className="mb-4 last:mb-0">
-                  <h3 className="font-semibold">{edu.institution}</h3>
-                  <p className="text-gray-700">{edu.degree}</p>
-                  <p className="text-sm text-gray-500 whitespace-normal break-words">
-                    {edu.period}
-                  </p>
-                </div>
               ))}
             </section>
           </div>
@@ -555,35 +583,6 @@ const Resume = () => {
                   )}
                 </button>
               )}
-            </section>
-
-            {/* Services/Memberships section */}
-            <section className="bg-white rounded-lg shadow-md p-6">
-              <h2 className="text-xl font-bold text-blue-800 flex items-center mb-4">
-                <User className="w-5 h-5 mr-2" />
-                {data.titles.services}
-              </h2>
-
-              <div className="space-y-3">
-                {data.services &&
-                  data.services.map((service, index) => (
-                    <div
-                      key={index}
-                      className="py-2 border-b border-gray-100 last:border-0"
-                    >
-                      <h3 className="font-medium">{service.name}</h3>
-                      <p className="text-sm text-gray-600">{service.issuer}</p>
-                      {service.description && (
-                        <p className="text-xs text-gray-500">
-                          {service.description}
-                        </p>
-                      )}
-                      <p className="text-sm text-gray-500 whitespace-normal break-words mt-1">
-                        {service.date}
-                      </p>
-                    </div>
-                  ))}
-              </div>
             </section>
           </div>
         </div>

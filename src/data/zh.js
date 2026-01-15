@@ -89,8 +89,8 @@ export const zhData = {
   education: [
     {
       institution: "香港理工大學",
-      degree: "B.Sc. in Information Security",
-      period: "2023年9月 - 現在",
+      degree: "BSc (Hons) in Information Security",
+      period: "2023年9月 - 2027年6月（預計）",
     },
   ],
   experience: [
@@ -230,7 +230,7 @@ export const zhData = {
   services: [
     {
       name: "活躍成員",
-      issuer: "NuttyShell CTF Team",
+      issuer: "NuttyShell（理大 CTF 戰隊）",
       description: "香港理工大學",
       date: "2023年9月 - 現在",
     },

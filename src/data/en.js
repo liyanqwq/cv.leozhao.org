@@ -105,8 +105,8 @@ export const enData = {
   education: [
     {
       institution: "The Hong Kong Polytechnic University",
-      degree: "B.Sc. in Information Security",
-      period: "Sep 2023 - Current",
+      degree: "BSc (Hons) in Information Security",
+      period: "Sep 2023 - Jun 2027 (expected)",
     },
   ],
   experience: [
@@ -253,7 +253,7 @@ export const enData = {
   services: [
     {
       name: "Active Member",
-      issuer: "NuttyShell CTF Team",
+      issuer: "NuttyShell (The PolyU CTF Team)",
       description: "The Hong Kong Polytechnic University",
       date: "Sep 2023 - Present",
     },
